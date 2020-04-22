@@ -1,0 +1,387 @@
+/* ---------------start the padding for main section of website after navbar -------*/
+ .site-main {
+    padding:20px;
+    margin: 20px auto;
+    max-width: 1200px;
+} 
+/* ------------------end the padding for main section of website after navbar ------------*/
+
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* -----------------Start My first name or brand name font color--------------------------- */
+#mainnavbar .navbar-brand{
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+/* ----------------------End My first name or brand name font color------------------------- */
+
+
+
+
+
+
+
+
+/* ------------------------start brand name padding between name and boes----------------------------- */
+.firstname {
+    padding:3px
+}
+.lastname {
+    padding:3px
+}
+/* -----------------------end brand name padding ----------------------------*/
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------start background color of nav bar------------------------------  */
+#mainnavbar {
+    background:white;
+    
+}
+/* ------------------------------end background color of nav bar------------------------------  */
+
+
+
+
+
+
+
+
+
+/* ------------------------------start font color of links on nav bar---------------------------  */
+#mainnavbar .nav-link {
+    color: black;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+/* -----------------------------------end font color of links on nav bar ----------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------start color of navigation bar links when i hover over them------------------------- */
+#mainnavbar .nav-link:hover {
+    color: #FF3366;
+}
+
+/* --------------------end color of navigation bar links when i hover over them----------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------start how I made Home the active link ------------------------- */
+#mainnavbar .navbar-nav .active a{
+    background: #FF3366;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* --------------------end how I made Home the active link ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------start creating boxes around my name on left of navbar ----------*/
+#mainnavbar .firstname {
+    border: #4F4F4F solid 1px;
+    background: #4F4F4F;
+
+}
+#mainnavbar .lastname {
+    background: #FF3366;
+    border: #FF3366 solid 1px;
+}
+/* ----------------end creating boxes around my name on left of navbar ----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------start creating space between my main photo and nav bar-------- */
+.coverphoto {
+    margin-top: 130px;
+}
+/* ----------------------end creating space between my main photo and nav bar-------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------start creating font for all paragraph elements----- */
+p {
+    font-family: 'Roboto Slab', serif;
+}
+/* -------------------end creating font for all paragraph elements----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------start changing color of my last name on home screen-----  */
+span {
+    color: #FF3366;
+}
+/* --------------------------------------end changing color of my last name on home screen-----  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------start the padding and margin of the entire home page section------ */
+#headingmain {
+    padding-left: 35%;
+}
+
+#headingmain .container-fluid {
+    margin-bottom: 100px;
+    
+}
+/* ----------------------------end the padding and margin of the entire home page section------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------start the space between the heading titled Portofolio and its contents------- */
+.portfolio {
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+/* --------------end the space between the heading titled Portofolio and its contents------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------start space between each card deck section of the portfolio-------- */
+.card-deck {
+    margin-bottom: 25px;
+}
+/* ---------------------end space between each card deck section of the portfolio-------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------start making all images on cards the same size without ruining ratio of image  */
+
+.image {
+    height: 420px;
+    width: 100%;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+}
+
+.image1 {
+    background-image: url(img/Supplementbrochure\ .jpg);
+
+}
+
+.image2 {
+    background-image: url(img/highintensityhandout.jpg);
+}
+
+.image3 {
+    background-image: url(img/Smoothie\ guide.jpg);
+}
+
+.image4 {
+    background-image: url(img/daily-nouri-D37STEwmyqY-unsplash.jpg);
+}
+
+
+
+/* these are the smaller images on blog sidebar that dont fit the height of the above images */
+.image5 {
+    background-image: url(img/ella-olsson-mV_fzXhwiOg-unsplash.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.image6 {
+    background-image: url(img/kate-GBVRyE4PRLk-unsplash.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.image7 {
+    background-image: url(img/the-honest-company-GMEWjLs5vXU-unsplash.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+
+/* these are the smaller images on blog sidebar that dont fit the height of the above images */
+/* --------------------end making all images on cards the same size without ruining ratio of image  */
+
+
+
+
+
+
+
+/* ---------------------------------------------start container css from html5 */
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 70em;
+}
+
+    @media screen and (max-width: 1680px) {
+
+        .container {
+            width: 68em;
+        }
+
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        .container {
+            width: calc(100% - 80px);
+        }
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+        .container {
+            width: calc(100% - 100px);
+        }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        .container {
+            width: calc(100% - 40px);
+        }
+
+    }
+    /*----------------------------------------- end container css from html5 */ 
+
+
+
+
+
+.blog {
+    margin-top: 10em;
+}
+
+
+/* ------------------------------------------start Sections/Article */
+
+ section, article {
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+/* section > :last-child,
+article > :last-child,
+section:last-child,
+article:last-child {
+    margin-bottom: 0;
+}  */
+/*------------------------------------------------- end sections/article */
+
